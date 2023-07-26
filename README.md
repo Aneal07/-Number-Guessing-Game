@@ -24,5 +24,5 @@ game_id (integer, primary key)
 user_id (integer, foreign key referencing users.user_id)
 guesses (integer, storing the number of guesses it took to win the game)
 Future Improvements
-Add a score system based on the number of guesses
-Implement a leaderboard to tra
+Add a scoring system based on the number of guesses
+Implement a leaderboard to track top players.
